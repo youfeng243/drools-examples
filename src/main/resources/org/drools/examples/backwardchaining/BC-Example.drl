@@ -29,7 +29,7 @@ rule "go" salience 10
 when
     $s : String(  )
 then
-    System.out.println( $s );
+    System.out.println("rule go " +  $s );
 end
 
 
